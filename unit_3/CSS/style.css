@@ -1,0 +1,75 @@
+* {	
+	padding: 0;
+	margin:0;
+}
+
+header {
+	background-color: #7C9B85;  
+	font-color: #17E1B6;
+	font-size: 20px; 
+
+}
+
+#slogan {
+	color; #37FFFF;
+	font-style: italic;
+	text-align: center;
+}
+
+
+body {
+	 font-family: Arial, sans-serif;
+	 font-size: 20px;
+	 color: #2222222; 
+	 line-height: 1.3
+}
+
+h1{
+	color: #ffffff;
+	text-align: center; 
+}
+h2{
+	color: #37FFFF;
+	margin-right: 9px;
+}
+
+
+a {
+	color; #35A67C;
+	text-decoration: none; 
+}
+
+nav a {
+	color: #FFFFFF;
+	font-family: Arial, sans-serif;
+	font-style: italic;
+	width: 90%
+	height: 30px;
+	padding-left: 110px;
+	text-align: center;
+}
+
+img {
+	width: 100%;
+
+}	
+
+main {
+	padding: 20px;
+}
+ul, ol { 
+	padding-left:20px; 
+}
+
+footer {
+	 background-color: #
+	 padding: 20px;
+	 text-align: center;
+}
+h3, h4, h5 {
+	margin: 20px o;
+}
+
+aside {
+	float:right;
+}
