@@ -26,7 +26,7 @@ nav{
 margin:auto;
 }
 
-main {
+main{
 	background-color: #FFFFFF;
 	color: #1C7F3C;
 	padding:50px 0;
@@ -80,8 +80,9 @@ img{
 
 }
 
-.service_content {
+.programs {
 	font-family:'Open Sans', sans-serif;
+	font-color:#1C7F3C;
 	width:30em
 	margin:2em auto;
 
