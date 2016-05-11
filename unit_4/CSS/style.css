@@ -19,7 +19,6 @@ body {
 
 header{
 	padding:0 200px;
-
 }
 
 nav{
@@ -28,12 +27,12 @@ margin:auto;
 
 main{
 	background-color: #FFFFFF;
-	color: #1C7F3C;
+	color:#1C7F3C;
 	padding:50px 0;
 }
 
 section{
-	padding:20px 0;
+	padding:50px 0;
 }
 
 footer {
@@ -44,8 +43,8 @@ footer {
 
 h1{	
 	font-family:'Open Sans', sans-serif;
-	font-weight: bold;
-	font-size: 1em;
+	font-weight: normal;
+	font-size: 60px;
 	font-style: italic;
 	text-align:center;
 	color:#1C7F3C;
@@ -72,20 +71,26 @@ img{
 
 .navLinks {
 	font-family:'Open Sans', sans-serif;
-	font-size: 1.87em;
 	color: black;
 	font-weight:600;
 	text-transform: uppercase;
 	letter-spacing: 20px;
 
+	padding: 20px;
+/*	padding-top: 10px;
+	padding-right: 40px;
+	padding-bottom: 20px;
+	padding-left: 40px;*/
+
+	margin: 0 20px;
+	border:none;
+	background-color:black;
 }
 
 .programs {
-	font-family:'Open Sans', sans-serif;
-	font-color:#1C7F3C;
 	width:30em
 	margin:2em auto;
-
+	background-color:;
 {
 
 
