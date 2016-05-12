@@ -43,6 +43,8 @@ nav a {
 }
 
 img {
+	
+	background-color: purple;
 	width: 100%
 }
 
@@ -85,7 +87,7 @@ img{
 	color: black;
 	font-weight:600;
 	text-transform: uppercase;
-	letter-spacing: 20px;
+	letter-spacing: 2px;
 
 	padding: 20px;
 /*	padding-top: 10px;
