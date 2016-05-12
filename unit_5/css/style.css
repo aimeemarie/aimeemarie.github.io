@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 *!
  *  Font Awesome 4.6.2 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
@@ -18,17 +18,39 @@ body {
 }
 
 header{
-	padding:0 200px;
+	padding:50x;
 }
 
-nav{
-margin:auto;
+h1{	
+	font-family:'Open Sans', sans-serif;
+	font-weight: normal;
+	font-size: 20px;
+	font-style: italic;
+	text-align:left;
+	color:#1C7F3C;
+	margin:200px 0 0;
 }
+
+a {
+ 	color: black;
+	text-decoration: underline;
+}
+
+nav a {
+	color: black
+	font font-style: 'Open Sans', sans-serif;
+	margin-right: 40px; 
+}
+
+img {
+	width: 100%
+}
+
 
 main{
 	background-color: #FFFFFF;
 	color:#1C7F3C;
-	padding:50px 0;
+	padding:50px;
 }
 
 section{
@@ -41,21 +63,10 @@ footer {
 	 text-align: center;
 }
 
-h1{	
-	font-family:'Open Sans', sans-serif;
-	font-weight: normal;
-	font-size: 60px;
-	font-style: italic;
-	text-align:center;
-	color:#1C7F3C;
-	margin:200px 0 0;
-}
-
-h3,
-h4 {
+h3,h4 {
 	font-family: 'Open Sans', sans-serif;
 	font-size:2.25em;
-	text-align:center;
+	margin: 20px;
 }
 
 p {
