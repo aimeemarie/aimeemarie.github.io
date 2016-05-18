@@ -13,6 +13,7 @@ body {
 	 font-family:'Open Sans', sans-serif; 
 	 font-size: 20px; /*1em = 16px*/
 	 line-height:1.5;
+	text-align: center;
 }
 
 h1, h2, h3, h4, h5 {
@@ -20,33 +21,36 @@ h1, h2, h3, h4, h5 {
 }
 
 h3{
-	color:#00000;
 	text-align:center;
 }
+
 header {
 	font-family:'Open Sans', sans-serif;
-	font-size: 1.0em;
+	font-size: 1em;
 	font-weight: bold;
 	font-style: italic;
 	text-align:center;
-	color: black;
-	padding:10px 0; 
+	background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
 
 }
 
 a {
-	color:#000000
 	text-decoration:none;
 
 }
 
 nav {
 	text-align:center;
-	background-color:black;
+	background-color: #E8C66A;
+    border:1px black solid;
+    padding:20px;
+    text-decoration: none;
 }
 
 nav a {
-	color: white;	
+	color:black;
 	display: block;
 	width: 180px;
 	float: left;
@@ -59,43 +63,39 @@ nav a:hover {
 
 main {
 	width: 720px;
+	padding:50px 0;
 	text-align:center;
 }
 
 article{
-	padding:20px 0;
-	border-bottom:2px solid #ccc;
+	background-color:#E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+    text-align:center;
 }
 
 footer {
-	 clear: both;
-	 background-color: #41cd8c;
-	 padding:20px;
-	 text-align: center;
-
+	 clear:both;
+	 background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
 }
 
 p {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1em; /*1em = 16px*/
 	line-height:1.5em;
+	text-align:center;
 }
 
 img{
 	width:100;
 }
 
-li {
-    display: inline;
- 
-}
-
-li a {
-
-	color: black;
-	text-align:center;
-	padding: 2em;
-	text-decoration: none;
+section{
+	background-color:#FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
 }
 
 #wrapper{
@@ -110,14 +110,13 @@ li a {
 	text-transform: uppercase;
 	font-weight:600;
 	letter-spacing:2px;
-	margin:20px;
-	padding:20px
+	margin:10px;
+	padding:10px
 	
 }
 
 .programs {
-	width:40em
-	font size: 22px;
+	width:30em
 	margin:2em auto;
-	background-color:orange;
-}
+	font-size:2em;
+{
