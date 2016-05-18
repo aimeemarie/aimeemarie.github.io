@@ -7,6 +7,7 @@
 * {	
 	padding:0;
 	margin:0;
+	box-sizing: border-box;
 }
 
 body {
@@ -120,3 +121,13 @@ section{
 	margin:2em auto;
 	font-size:2em;
 {
+
+.topnavigation {
+	display: block;
+	content: " ";
+	clear: both;
+
+	height: 0;
+	font-size: 0;
+	visibility; hidden;
+}
