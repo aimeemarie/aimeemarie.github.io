@@ -42,9 +42,6 @@ nav a:link{
 	letter-spacing:2px;
 }
 
-main {
-	background-colo
-}
 
 h1{
 	font-family: 'Open Sans', sans-serif;
@@ -125,6 +122,9 @@ footer {
     float:right;
     width:70%;
 
+}
+#offered_programs{
+	text-align:center;
 }
 .clearfix:after{
 	visibility: hidden;
