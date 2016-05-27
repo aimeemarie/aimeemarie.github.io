@@ -85,7 +85,6 @@ a {
 footer {
 	color:#F1E9E4;
 	padding:20px 0;
-}
 
 
 }
@@ -122,9 +121,6 @@ footer {
     float:right;
     width:70%;
 
-}
-#offered_programs{
-	text-align:center;
 }
 .clearfix:after{
 	visibility: hidden;
