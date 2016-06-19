@@ -4,7 +4,6 @@
 }
 
 body { 
-
 	font-family:'Open Sans', sans-serif;
 	font-weight: 400;
 	font-size: 1.0em;
@@ -12,14 +11,23 @@ body {
 
 }
 
-header {  
-padding:45px 0;
+header  {  
+	background:white;
+	position: fixed;
+	width: 100%;
 
+}
+
+header img {
+	width:135px;
+	padding-left:0.8em;
+	display: block;
+	float:left;
 }
 
 
 nav {
-	text-align:center;
+	float:right;
 	background color: white;
 }
 
@@ -38,7 +46,7 @@ nav a{
 	font-weight:100;
 	letter-spacing: 0.15em;
 	line-height: 1.5em;
-	padding:1.20em;
+	padding:2.5em;
 	display:inline;
 	background color: #ff7900;
 	margin:0 2em;
@@ -46,6 +54,8 @@ nav a{
 
 main {
 	background-image:url("http://solacewellnessretreat.com/wp-content/uploads/2013/07/background2.jpg") ; 
+	background-attachment: fixed;
+	color:black;
 
 }
 
@@ -53,7 +63,6 @@ main {
 	
 	background-image: url("http://www.artandsoul108.com/wp-content/uploads/2015/08/corporatewellness2.jpg");
 	background-size: cover;
-	background-position: center;
 	background-position: right top;
     background-attachment: fixed;
     text-align: center;
@@ -66,33 +75,48 @@ a {
 	color:#8C8C8C;
 }
 
-.p {
-	font-size: 0.5em;
-	font color: black;
-	float:none;
-	width:auto;
-}
+section#background {
 
+ bottom padding: 2em;
 
-h4, h5, h6 {
-	font-weight:300;
-	color: 000000;
 }
 
 h1 {
 	font-family: 'Open Sans', sans-serif;
 	color:#FF5D23;
-	font-size:1.0em;
+	font-size:1.5em;
 	float:left;
 	font-style: bold;
 	margin:0 30px;
 	padding 
 }
 
+h3, h4 {
+
+	font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    color:black;
+    text-align: center;
+    padding-top: 1.0em;
+    padding-bottom: 1.0em;
+
+}
+
 h5, h6 {
-  font-size: 1.0em;
-  text-align:center;
-  line-height: 2;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    color:#FF9700;
+   	text-align:center;
+   text-transform: uppercase;
+   padding-bottom: 1.0em;
 }
 
 .two-columns {
@@ -143,17 +167,21 @@ footer p {
 }
 
 
-p {
+#services{ 
+	padding:1.5em 0;
+	margin: 1em 0;
+	max-width: 60em;
+}
+
+.P {
 	font-family: 'Open Sans', sans-serif;
-	font-size:1.0em;
-	box-sizing: border-box;
-	color:#8C8C8C;
-	padding:2%;
-	
+	text-align: center;
+	font-size: 1.0em;
+	color:black;
 }
 
 
-h2 {
+h1 {
 
 	font-size:2.0em;
 	color:white;
@@ -166,7 +194,7 @@ h2 {
 	
 }	
 
-h3 {
+h2 {
 
 	font-size:1.0em;
 	color:white;
@@ -176,19 +204,6 @@ h3 {
 	padding-top: 0.3%;
 	display:block;
 	width: 100%;
-}
-
-h4 {
-
-	font-size:2.0em;
-	text-align: center;
-	font-style:bold;
-	text-transform: uppercase;
-	font-weight:900;
-	letter-spacing: 2px;
-	margin:5px;
-	padding:5px;
-
 }
 
 
@@ -203,6 +218,4 @@ h4 {
 }
 
 
-@media only screen and (min-width:px)
-@media only screen and (max-width:px)
-@media only screen and (min-width: px) and (max-width: px)
+@media screen and (device-width:px) and (device-height:  px)
