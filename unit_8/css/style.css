@@ -1,0 +1,208 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+* {	margin:0; padding:0; box-sizing:border-box;
+}
+
+body { 
+
+	font-family:'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 1.0em;
+	line-height:1.3;
+
+}
+
+header {  
+padding:45px 0;
+
+}
+
+
+nav {
+	text-align:center;
+	background color: white;
+}
+
+nav a:hover{
+	background color:#FF8C0D;
+	
+}
+
+nav a{
+	color:#FF9700;
+	display: block:
+	width:90%;
+	float:right;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight:100;
+	letter-spacing: 0.15em;
+	line-height: 1.5em;
+	padding:1.20em;
+	display:inline;
+	background color: #ff7900;
+	margin:0 2em;
+}
+
+main {
+	background-image:url("http://solacewellnessretreat.com/wp-content/uploads/2013/07/background2.jpg") ; 
+
+}
+
+#cover {
+	
+	background-image: url("http://www.artandsoul108.com/wp-content/uploads/2015/08/corporatewellness2.jpg");
+	background-size: cover;
+	background-position: center;
+	background-position: right top;
+    background-attachment: fixed;
+    text-align: center;
+    display:block;
+	padding:30em 0;
+}
+
+a {
+	text-align: center;
+	color:#8C8C8C;
+}
+
+.p {
+	font-size: 0.5em;
+	font color: black;
+	float:none;
+	width:auto;
+}
+
+
+h4, h5, h6 {
+	font-weight:300;
+	color: 000000;
+}
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	color:#FF5D23;
+	font-size:1.0em;
+	float:left;
+	font-style: bold;
+	margin:0 30px;
+	padding 
+}
+
+h5, h6 {
+  font-size: 1.0em;
+  text-align:center;
+  line-height: 2;
+}
+
+.two-columns {
+    float: left;
+    width: 50%;
+    padding: 1em 3em;
+    min-height: 35em;
+}
+
+.two-columns img {
+    width: 300px;
+    margin: 0 auto 1em;
+    display: block;
+
+}
+
+.image-wrapper {
+    width:300px;
+    height: 300px;
+    margin: 0 auto 1em;
+    padding: 1em 1.5em;
+
+}
+
+.image-wrapper img {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    padding: 2em 0em;
+}
+
+
+.column {
+    float: left;
+}
+
+footer {
+	clear:both;
+	padding: 2em 5em;
+    height: 95px;
+    text-align: center;
+    background-color:#EDEDED;
+
+}
+
+footer p {
+	float: right;
+}
+
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size:1.0em;
+	box-sizing: border-box;
+	color:#8C8C8C;
+	padding:2%;
+	
+}
+
+
+h2 {
+
+	font-size:2.0em;
+	color:white;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	font-weight:300;
+	padding-top: 0.3%;
+	width: 100%;
+	display:block;
+	
+}	
+
+h3 {
+
+	font-size:1.0em;
+	color:white;
+	letter-spacing: 0.2em;
+	font-weight:300;
+	font-style: italic;
+	padding-top: 0.3%;
+	display:block;
+	width: 100%;
+}
+
+h4 {
+
+	font-size:2.0em;
+	text-align: center;
+	font-style:bold;
+	text-transform: uppercase;
+	font-weight:900;
+	letter-spacing: 2px;
+	margin:5px;
+	padding:5px;
+
+}
+
+
+
+.clearfix:after {
+	display block;
+	content: "benefits";
+	clear:both;
+	visibility: hidden;
+	height:0
+	font-size 0; 
+}
+
+
+@media only screen and (min-width:px)
+@media only screen and (max-width:px)
+@media only screen and (min-width: px) and (max-width: px)
