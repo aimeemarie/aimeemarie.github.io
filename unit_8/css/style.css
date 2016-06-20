@@ -1,25 +1,26 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
-* {	margin:0; padding:0; box-sizing:border-box;
-}
+* {	margin:0; padding:0; box-sizing:border-box;}
 
-body { 
+
+
+body{
 	font-family:'Open Sans', sans-serif;
-	font-weight: 400;
-	font-size: 1.0em;
-	line-height:1.3;
+	font-weight: normal;
+	line-height:1.3em;
+	font-size: 16px;
 
 }
 
 header  {  
-	background:white;
+	background:#FFFFFF;
 	position: fixed;
 	width: 100%;
 
 }
 
 header img {
-	width:135px;
+	width:40%; 
 	padding-left:0.8em;
 	display: block;
 	float:left;
@@ -27,35 +28,26 @@ header img {
 
 
 nav {
+	margin:auto;
+	padding:1em;
 	float:right;
+	line-height: 1.5em;
 	background color: white;
 }
 
-nav a:hover{
-	background color:#FF8C0D;
-	
-}
-
-nav a{
-	color:#FF9700;
-	display: block:
-	width:90%;
-	float:right;
+a{
 	text-transform: uppercase;
 	text-decoration: none;
-	font-weight:100;
-	letter-spacing: 0.15em;
-	line-height: 1.5em;
-	padding:2.5em;
-	display:inline;
+	color:#FF9700;
+	float:left;
 	background color: #ff7900;
-	margin:0 2em;
+	margin:1em;
 }
 
 main {
 	background-image:url("http://solacewellnessretreat.com/wp-content/uploads/2013/07/background2.jpg") ; 
-	background-attachment: fixed;
-	color:black;
+	background-size: cover;
+	background-image: fixed;
 
 }
 
@@ -63,21 +55,18 @@ main {
 	
 	background-image: url("http://www.artandsoul108.com/wp-content/uploads/2015/08/corporatewellness2.jpg");
 	background-size: cover;
-	background-position: right top;
-    background-attachment: fixed;
     text-align: center;
     display:block;
 	padding:30em 0;
 }
 
-a {
-	text-align: center;
-	color:#8C8C8C;
-}
+
 
 section#background {
 
  bottom padding: 2em;
+ text-align: center;
+ padding: 0 2em;
 
 }
 
@@ -87,8 +76,8 @@ h1 {
 	font-size:1.5em;
 	float:left;
 	font-style: bold;
-	margin:0 30px;
-	padding 
+	margin:0 .5em;
+	padding-bottom: 1.0em;
 }
 
 h3, h4 {
@@ -100,6 +89,7 @@ h3, h4 {
     font-weight: normal;
     line-height: 1;
     color:black;
+    text-transform: uppercase;
     text-align: center;
     padding-top: 1.0em;
     padding-bottom: 1.0em;
@@ -112,18 +102,18 @@ h5, h6 {
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1;
-    color:#FF9700;
+    line-height: 1em;
+    color:#000000;
    	text-align:center;
-   text-transform: uppercase;
-   padding-bottom: 1.0em;
+  	text-transform: uppercase;
+   	padding-bottom: 1.0em;
 }
 
 .two-columns {
     float: left;
     width: 50%;
     padding: 1em 3em;
-    min-height: 35em;
+    min-height: 30em;
 }
 
 .two-columns img {
@@ -153,19 +143,6 @@ h5, h6 {
     float: left;
 }
 
-footer {
-	clear:both;
-	padding: 2em 5em;
-    height: 95px;
-    text-align: center;
-    background-color:#EDEDED;
-
-}
-
-footer p {
-	float: right;
-}
-
 
 #services{ 
 	padding:1.5em 0;
@@ -177,7 +154,7 @@ footer p {
 	font-family: 'Open Sans', sans-serif;
 	text-align: center;
 	font-size: 1.0em;
-	color:black;
+	color:#000000;
 }
 
 
@@ -207,7 +184,6 @@ h2 {
 }
 
 
-
 .clearfix:after {
 	display block;
 	content: "benefits";
@@ -217,5 +193,44 @@ h2 {
 	font-size 0; 
 }
 
+footer {
+	clear:both;
+	padding: 2em 5em;
+    height: 2em;
+    text-align: center;
+    background-color:#EDEDED;
 
-@media screen and (device-width:px) and (device-height:  px)
+}
+
+footer p {
+	float: right;
+}
+    
+@media only screen and (max-width: 733px) {
+    header {
+        width: 100%;
+  	}  
+    #background {
+        font-size: 2em;
+    }
+    section#cover {
+        font-size:.75em;
+    }
+    nav a {
+        margin:0;
+        text-align:center;
+        width:25%;
+    }
+    nav a img {
+        display:inline-block;
+        padding:0;
+        width:50%; 
+    }
+    h3 {
+        font-size:1.5em;
+    }
+}
+
+ 
+
+
