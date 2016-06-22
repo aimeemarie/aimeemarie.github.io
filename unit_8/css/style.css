@@ -57,11 +57,12 @@ main {
 #cover {
 	
 	background-image: url("http://www.artandsoul108.com/wp-content/uploads/2015/08/corporatewellness2.jpg");
-	background-size: cover;
+	background-size: contain;
     text-align: center;
     display:block;
 	padding:30em 0;
 	width: 100%
+	height:400px;
 }
 
 
@@ -220,39 +221,68 @@ footer {
 	display: none;
 }
 
- /*media*/
 
 
 @media only screen and (max-width: 1084px) {
 	body {
-		font-size: 16px;
+		font-size: 14px;
+
 	}
-    
   	#wrapper {
-		width: 1600px;
+		width: 1100px;
 	}
+	
+@media only screen and (max-width: 1130px) {
+	footer p {
+		float: none;
+	}
+	footer {
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	body {
+		font-size: 14px;
+	}
+
+	main {
+		width: 55%;
+	}
+
+@media only screen and (max-width: 751px) {
+	header {
+	padding:0 80%;
+	}
+
+}
+
+	main {
+		width: 55%;
+	}
+
 @media only screen and (max-width:1080px) {
     section#cover {
-        height: auto;
+        margin:.5em;
     }
 }
 
-@media only screen and (max-width:744px) {
+@media only screen and (max-width:1085px) {
     h1 { 
-        padding-top:5em; 
+        padding-top:2em; 
     }
-    section#splash {
+    section#cover {
         height:auto;
         padding:10em 0;
     }
     .two-columns main       
         float: none;
-        width: 100%;
+        width: 50%;
         min-height: initial;
-        padding: 2em 5em;
-    }
+        padding:0.5em;
+ }
     .two-columns img {
-        width:50%;
+        width:30%;
     }
 }
 
@@ -262,31 +292,33 @@ footer {
     }
     nav {
         float: none;
+        width:auto;
+        display:none;
+
     }
     header img {
         float: none;
     }
     .two-columns {
-        padding:2em 2em;
+        padding:1em 1em;
     }
     h1 {
         padding-top: 8em;
     }
-    .gray {
+    .background{
         font-size: 2.5em;
     }
 }
 
 @media only screen and (max-width: 400px) {
     header {
-        width: 100%;
+        width: 50%;
     }  
-    .gray {
+    .background {
         font-size: 2em;
+    
     }
-    section#cover {
-        font-size:.75em;
-    }
+}
     nav a {
         margin:0;
         text-align:center;
