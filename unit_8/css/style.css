@@ -3,7 +3,6 @@
 * {	margin:0; padding:0; box-sizing:border-box;}
 
 
-
 body{
 	font-family:'Open Sans', sans-serif;
 	font-weight: normal;
@@ -16,6 +15,7 @@ header  {
 	background:#FFFFFF;
 	position: fixed;
 	width: 100%;
+	padding:0.5em;
 
 }
 
@@ -29,10 +29,12 @@ header img {
 
 nav {
 	margin:auto;
+	margin-right: 2em;
 	padding:1em;
 	float:right;
 	line-height: 1.5em;
 	background color: white;
+
 }
 
 a{
@@ -45,9 +47,10 @@ a{
 }
 
 main {
-	background-image:url("http://solacewellnessretreat.com/wp-content/uploads/2013/07/background2.jpg") ; 
+	
+	background-color:#C5CD8F;
 	background-size: cover;
-	background-image: fixed;
+	width:100%;
 
 }
 
@@ -58,12 +61,11 @@ main {
     text-align: center;
     display:block;
 	padding:30em 0;
+	width: 100%
 }
 
 
-
 section#background {
-
  bottom padding: 2em;
  text-align: center;
  padding: 0 2em;
@@ -150,67 +152,136 @@ h5, h6 {
 	max-width: 60em;
 }
 
+
 .P {
 	font-family: 'Open Sans', sans-serif;
 	text-align: center;
 	font-size: 1.0em;
 	color:#000000;
+
 }
 
 
 h1 {
 
 	font-size:2.0em;
-	color:white;
+	color:#FFFFFF;
 	letter-spacing: 0.2em;
 	text-transform: uppercase;
 	font-weight:300;
 	padding-top: 0.3%;
 	width: 100%;
 	display:block;
+	text-align: center;
 	
 }	
 
 h2 {
 
 	font-size:1.0em;
-	color:white;
+	color:#FFFFFF;
 	letter-spacing: 0.2em;
 	font-weight:300;
 	font-style: italic;
 	padding-top: 0.3%;
 	display:block;
 	width: 100%;
+	text-align: center;
 }
 
 
 .clearfix:after {
-	display block;
-	content: "benefits";
+	display: block;
+	content: " ";
 	clear:both;
 	visibility: hidden;
 	height:0
-	font-size 0; 
+	font-size: 0; 
 }
-
 footer {
 	clear:both;
-	padding: 2em 5em;
-    height: 2em;
-    text-align: center;
-    background-color:#EDEDED;
+    background-color:#FFFFFF;
+	padding: 1em;
 
-}
-
-footer p {
-	float: right;
 }
     
-@media only screen and (max-width: 733px) {
+ footer p {
+ 	float:right;
+ }
+
+
+#wrapper {
+	width: 98%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#mobile {
+	display: none;
+}
+
+ /*media*/
+
+
+@media only screen and (max-width: 1084px) {
+	body {
+		font-size: 16px;
+	}
+    
+  	#wrapper {
+		width: 1600px;
+	}
+@media only screen and (max-width:1080px) {
+    section#cover {
+        height: auto;
+    }
+}
+
+@media only screen and (max-width:744px) {
+    h1 { 
+        padding-top:5em; 
+    }
+    section#splash {
+        height:auto;
+        padding:10em 0;
+    }
+    .two-columns main       
+        float: none;
+        width: 100%;
+        min-height: initial;
+        padding: 2em 5em;
+    }
+    .two-columns img {
+        width:50%;
+    }
+}
+
+@media only screen and (max-width: 615px) {
+        header {
+        width: 120%;
+    }
+    nav {
+        float: none;
+    }
+    header img {
+        float: none;
+    }
+    .two-columns {
+        padding:2em 2em;
+    }
+    h1 {
+        padding-top: 8em;
+    }
+    .gray {
+        font-size: 2.5em;
+    }
+}
+
+@media only screen and (max-width: 400px) {
     header {
         width: 100%;
-  	}  
-    #background {
+    }  
+    .gray {
         font-size: 2em;
     }
     section#cover {
