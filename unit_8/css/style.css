@@ -225,7 +225,7 @@ footer {
 
 @media only screen and (max-width: 1084px) {
 	body {
-		font-size: 14px;
+		font-size: 16px;
 
 	}
   	#wrapper {
@@ -275,14 +275,14 @@ footer {
         height:auto;
         padding:10em 0;
     }
-    .two-columns main       
+    .two-columns main {   
         float: none;
         width: 50%;
         min-height: initial;
         padding:0.5em;
  }
     .two-columns img {
-        width:30%;
+        width:50%;
     }
 }
 
@@ -316,18 +316,13 @@ footer {
     }  
     .background {
         font-size: 2em;
-    
-    }
-}
-    nav a {
-        margin:0;
-        text-align:center;
-        width:25%;
+  }
+ 
     }
     nav a img {
         display:inline-block;
         padding:0;
-        width:50%; 
+        width:60%; 
     }
     h3 {
         font-size:1.5em;
