@@ -6,21 +6,20 @@
 body{
 	font-family:'Open Sans', sans-serif;
 	font-weight: normal;
-	line-height:1.3em;
+	line-height:1.3;
 	font-size: 16px;
 
 }
 
-header  {  
+header  {
 	background:#FFFFFF;
 	position: fixed;
 	width: 100%;
 	padding:0.5em;
-
 }
 
 header img {
-	width:10%; 
+	width: 10em;
 	padding-left:0.8em;
 	display: block;
 	float:left;
@@ -44,48 +43,37 @@ nav a{
 	background color: #ff7900;
 	margin:1em;
 }
-
-h1 {
-
-	font-size: 1.5em;
+h1,h2 {
 	color:#FFFFFF;
-	letter-spacing: .2em;
-	text-transform: uppercase;
 	font-weight:300;
+	letter-spacing: .2em;
 	padding-top: 0.3%;
 	width: 100%;
 	text-align: center;
-	
+}
+h1 {
+	font-size: 1.5em;
+	text-transform: uppercase;
 }	
 
 h2{ 
-
 	font-size:1.0em;
-	color:#FFFFFF;
-	letter-spacing: 0.2em;
-	font-weight:300;
 	font-style: italic;
-	padding-top: 0.3%;
-	display:block;
-	width: 100%;
-	text-align: center;
 }
 
 main {
-	
 	background-color:#C5CD8F;
-	width:100%;
-
+	width: 100%;
 }
 
 #cover {
-	
 	background-image: url("http://www.artandsoul108.com/wp-content/uploads/2015/08/corporatewellness2.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: center scroll;
-    text-align: center;
-    display:block;
+	background-position: center;
+	background-attachment: scroll;
+	text-align: center;
+	display:block;
 	padding:30em 0;
 	width: 100%;
 	height:400px;
@@ -94,7 +82,8 @@ main {
 section#background {
  bottom padding: 2em;
  text-align: center;
-
+ max-width: 37.5em;
+ margin: auto;
 }
 
 
@@ -120,7 +109,7 @@ h4{
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    line-height: 1em;
+    line-height: 1;
     color:#000000;
    	text-align:center;
   	text-transform: uppercase;
@@ -130,8 +119,8 @@ h4{
 .two-columns {
     float: left;
     width: 50%;
-    padding: 1em 3em;
-    min-height: 30em;
+    padding: 4em 3em;
+    /* min-height: 30em; */
 }
 
 .two-columns img {
@@ -169,7 +158,7 @@ h4{
 }
 
 
-.P {
+p {
 	font-family: 'Open Sans', sans-serif;
 	text-align: center;
 	font-size: 1.0em;
@@ -212,29 +201,19 @@ footer a {
 
 
 @media only screen and (max-width: 1208px){
-
-
-		h1,  {
+	h1  {
 			font-size: 14px;
 			position: relative;
-
 	}
 
 	h2 {
 		font-size: 14px;
 		position: relative;
 	}
-
-	  #toggle:checked + nav {
-    display: none;
-  }
-
-		#cover {
-
+	#cover {
 		padding:20em 0 20em 0;	
-			
 	}
-
+}
 @media only screen and (max-width:780px){
 
 
@@ -283,7 +262,7 @@ footer a {
         width:50%;
 }
 
-
+}
 @media only screen and (max-width: 400px) {
 
 	nav{
@@ -320,5 +299,5 @@ footer a {
     .two-columns img {
         width:50%;
 }
-
+}
 
